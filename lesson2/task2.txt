@@ -1,0 +1,11 @@
+﻿#include <stdio.h>
+#include <stdlib.h>
+
+int main() 
+{
+	system("chcp 1251"); // переходим в консоли на русский язык
+	system("cls");
+	printf("Привет, мир"); 
+	scanf_s(" ");
+	return 0;
+}
